@@ -1,0 +1,30 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+## 组件指南
+
+1. 使用 shadcn/ui 组件作为基础 UI 库
+2. 遵循 [components.json](mdc:components.json) 中的组件配置
+3. 所有组件使用 TypeScript
+4. 实现适当的属性类型和接口
+5. 使用 React hooks 进行状态管理
+6. 遵循既定的样式模式
+
+## 最佳实践
+
+- 保持组件小巧且功能专注
+- 优先使用组合而不是继承
+- 实现适当的错误边界
+- 添加适当的 TypeScript 类型
+- 为复杂组件添加 JSDoc 注释
+- 使用正确的命名约定（组件使用 PascalCase）
+
+## 测试
+
+- 为组件编写单元测试
+- 测试组件交互
+- 测试边界情况和错误状态
+- 确保适当的可访问性

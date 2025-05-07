@@ -1,0 +1,39 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# 开发工作流程指南
+
+## 开始使用
+
+1. 安装依赖：
+```bash
+pnpm install
+```
+
+2. 启动开发服务器：
+```bash
+pnpm dev
+```
+
+## 常用命令
+
+- `pnpm dev` - 启动开发服务器
+- `pnpm build` - 构建生产版本
+- `pnpm lint` - 运行 ESLint 检查
+- `pnpm format` - 使用 Prettier 格式化代码
+- `pnpm type-check` - 运行 TypeScript 类型检查
+
+## 代码风格
+
+- 遵循 [eslint.config.js](mdc:eslint.config.js) 中的 ESLint 配置
+- 遵循 [.prettierrc](mdc:.prettierrc) 中的 Prettier 配置
+- 所有新代码使用 TypeScript
+- 遵循 `components/` 目录中的组件结构
+
+## Git 工作流程
+
+- 遵循 [cz.yaml](mdc:cz.yaml) 中配置的约定式提交规范
+- 使用有意义的提交信息
+- 保持提交的原子性和专注性
